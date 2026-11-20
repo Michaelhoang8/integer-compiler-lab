@@ -77,4 +77,4 @@ CI runs the complete test suite and a smaller experiment under `build/ci`. Timin
 
 This is an **AI-assisted portfolio project** with synthetic programs and actual local measurements. It generates interpreted register IR, not native assembly or a JIT. It has no branches, loops, functions, I/O, pointers, floating point or fixed-width overflow. The runtime chain is a useful comparison, not a representative production workload. No business impact or employer result is claimed.
 
-The parser and evaluators assume small educational inputs. They are not a sandbox for hostile programs: very deep expressions or huge integers can consume excessive resources. `eval` and `exec` are not used.
+The parser and evaluators assume small educational inputs. They are not a sandbox for hostile programs: very deep expressions or huge integers can consume excessive resources. The compiler and runtime do not use `eval` or `exec`. The independent test oracle evaluates locally generated arithmetic expressions with Python to check the implementation.
