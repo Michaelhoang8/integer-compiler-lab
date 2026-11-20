@@ -1,0 +1,5 @@
+input x;
+input divisor;
+# The unused binding must still fail when divisor is zero.
+let unused = x // divisor;
+return x * 0;

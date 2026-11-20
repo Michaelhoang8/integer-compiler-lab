@@ -1,0 +1,45 @@
+[
+  {
+    "workload": "constant_heavy",
+    "inputs": {
+      "x": 37
+    },
+    "result": 513,
+    "engines_agree": true
+  },
+  {
+    "workload": "repeated_terms",
+    "inputs": {
+      "x": 37,
+      "y": 11
+    },
+    "result": 12320,
+    "engines_agree": true
+  },
+  {
+    "workload": "identity_chain",
+    "inputs": {
+      "x": -37
+    },
+    "result": -37,
+    "engines_agree": true
+  },
+  {
+    "workload": "runtime_chain",
+    "inputs": {
+      "x": 37,
+      "y": 11
+    },
+    "result": 16254,
+    "engines_agree": true
+  },
+  {
+    "workload": "preserved_trap",
+    "inputs": {
+      "x": 37,
+      "divisor": 3
+    },
+    "result": 0,
+    "engines_agree": true
+  }
+]

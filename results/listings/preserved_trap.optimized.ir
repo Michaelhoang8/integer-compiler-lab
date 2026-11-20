@@ -1,0 +1,5 @@
+%000 = input x
+%001 = input divisor
+%002 = // %0, %1
+%003 = const 0
+return %3

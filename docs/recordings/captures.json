@@ -1,0 +1,39 @@
+{
+  "captured_at_utc": "2026-11-20T22:07:33.836577+00:00",
+  "source": "Actual browser rendering of docs/report.html",
+  "recording": "Continuous automated browser review; not manual development footage",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "page_title": "Integer compiler \u00b7 experiment report",
+  "captures": [
+    {
+      "path": "docs/screenshots/01_overview.png",
+      "section": "overview",
+      "sha256": "49a45658b2656af41507e59f96742ff8a61833f5d267e38891a289d97bcca6b6"
+    },
+    {
+      "path": "docs/screenshots/02_pipeline.png",
+      "section": "pipeline",
+      "sha256": "36d910ea09510e46f52fe5e83188f8757837984a8424f8b03a61c85780acd425"
+    },
+    {
+      "path": "docs/screenshots/03_correctness.png",
+      "section": "correctness",
+      "sha256": "0aadcd216c922ae8e5cbac894370f1e02f2662c2a8634f0900978b48e23b8744"
+    },
+    {
+      "path": "docs/screenshots/04_measurements.png",
+      "section": "measurements",
+      "sha256": "2f3a6d52b80588d0f4846fa64080c83b0999c1e47c7ee63597444e6037a4ed6b"
+    },
+    {
+      "path": "docs/screenshots/05_decision.png",
+      "section": "decision",
+      "sha256": "9bb55f2712072ada60c3d2f6853b39dedeb66ae609bb8a5d081e4c7bce1d9ab1"
+    }
+  ],
+  "report_sha256_normalized_text": "fc3fe419756de729f8b06db9c4c6500fad87d00a73d1949f015f3e5236c0a15f",
+  "video_sha256": "f10fb6639aae6f931564b06e5504916a1ff8c89174e62d265595170911135a3f"
+}

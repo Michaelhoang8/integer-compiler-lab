@@ -1,0 +1,6 @@
+workload,constant_fold,identity,common_subexpression,dead_instruction
+constant_heavy,90,0,118,91
+repeated_terms,0,0,95,0
+identity_chain,0,60,58,2
+runtime_chain,0,0,46,0
+preserved_trap,0,1,0,0

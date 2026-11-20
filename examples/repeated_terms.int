@@ -1,0 +1,6 @@
+input x;
+input y;
+let a = (x + 7) * (y + 3);
+let b = (x + 7) * (y + 3);
+let c = (y + 3) * (x + 7);
+return a + b + c;

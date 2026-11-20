@@ -1,0 +1,7 @@
+# Integer cents; this example does not model tax or fractional cents.
+input price;
+input quantity;
+let percent = 100 - 15;
+let subtotal = price * quantity;
+let discounted = subtotal * percent // 100;
+return discounted;

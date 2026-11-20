@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-11-20T22:04:33.203920+00:00",
+  "python": "3.13.17",
+  "implementation": "CPython",
+  "os": "Windows",
+  "os_release": "11",
+  "machine": "AMD64",
+  "timer": "perf_counter_ns",
+  "timer_resolution_seconds": 1e-07,
+  "gc_during_timed_execution": false,
+  "samples_per_engine": 25,
+  "iterations_per_sample": 300,
+  "warmup_calls_per_engine": 100,
+  "engine_order": "seeded shuffle each round",
+  "seed": 41289,
+  "source_sha256": "15e0f18878e4f175210df4c6bc19756586ffd4ca1169ccd32e47ec927f6f678d",
+  "scope": "Local Python microbenchmarks on synthetic straight-line integer programs; no CPU affinity, no hardware counters, not native machine code"
+}

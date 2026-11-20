@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "integer-compiler-lab"
+version = "1.0.0"
+description = "A small integer compiler with trap-preserving optimization and reproducible experiments"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
