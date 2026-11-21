@@ -1,5 +1,7 @@
 # Integer compiler optimization lab
 
+**[View the report in your browser](https://Michaelhoang8.github.io/integer-compiler-lab/)**
+
 A small integer language compiler with **observable-error preservation**, independent execution paths, differential tests and measured optimization tradeoffs.
 
 The central problem: `let unused = x // divisor; return 0;` must still fail when `divisor` is zero. A dead-code pass that merely follows the returned value silently changes the language. This compiler keeps every potentially trapping operation live while eliminating safe redundant work.
